@@ -49,12 +49,6 @@ class MyTodoState extends State<MyTodo> {
                   const SizedBox(
                     height: 10,
                   ),
-                  Text(
-                    widget.todo.work2,
-                    style: TextStyle(
-                      decoration: isChecked ? TextDecoration.lineThrough : null,
-                    ),
-                  ),
                 ],
               ),
             ],
